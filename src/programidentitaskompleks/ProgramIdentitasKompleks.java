@@ -43,6 +43,15 @@ public class ProgramIdentitasKompleks {
         System.out.print("Nomor Handphone  : ");
         nomorhandphone = identitas.next();       
         
+        System.out.print("Alamat           : ");
+        alamat = identitas.next();
+        
+        System.out.print("Status           : ");
+        status = identitas.next();
+        
+        System.out.print("Nomor KTP        : ");
+        nomorKTP = identitas.next();      
+        
         System.out.print("Apakah anda yakin dengan data di atas? (Y/N): ");
         pilihan = identitas.next();
         
@@ -58,11 +67,11 @@ public class ProgramIdentitasKompleks {
                     System.out.println("                DATA DIRI               ");
                     System.out.println("");
                     System.out.println("Nama             : "+nama);
-                    System.out.println("Alamat           : -");
+                    System.out.println("Alamat           : "+alamat);
                     System.out.println("Nomor Handphone  : "+nomorhandphone);
                     System.out.println("Tgl Lahir        : "+tanggallahir);
-                    System.out.println("Status           : -");
-                    System.out.println("Nomor KTP        : -");
+                    System.out.println("Status           : "+status);
+                    System.out.println("Nomor KTP        : "+nomorKTP);
                     break;
                 case 2:
                     int pilih2;
@@ -111,6 +120,7 @@ public class ProgramIdentitasKompleks {
         }
     }
 }
+
 
 
 
